@@ -7,4 +7,5 @@
  * @return number
  * @author John Doe
  * */
-export declare function multiply(firstNumber: number, secondNumber: number): number;
+declare const multiply: (firstNumber: number, secondNumber: number) => number;
+export default multiply;
