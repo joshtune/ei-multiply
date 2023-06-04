@@ -1,0 +1,22 @@
+{
+  "name": "ei-multiply",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshtune/ei-multiply"
+  },
+  "author": {
+    "name": "Josh Tune",
+    "url": "https://joshtune.com"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": "This is a skeleton project to scaffold an npm package",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
