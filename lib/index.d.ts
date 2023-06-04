@@ -1,5 +1,5 @@
 /**
- * @name multiply will multiply two numbers
+ * @name multiply will multiply two numbers when entered
  *
  * @param firstNumber {number}
  * @param secondNumber {number}
