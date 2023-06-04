@@ -6,5 +6,5 @@
  *
  * @return number
  * */
-declare const multiply: (firstNumber: number, secondNumber: number) => number;
+declare const multiply: (firstNumber: number, secondNumber: number) => number | null;
 export default multiply;
