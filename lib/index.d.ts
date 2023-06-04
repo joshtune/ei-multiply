@@ -1,9 +1,9 @@
 /**
  * @name multiply
  *
- * @param a {number}
- * @param b {number}
+ * @param firstNumber {number}
+ * @param secondNumber {number}
  *
  * @return number
  * */
-export declare function multiply(a: number, b: number): number;
+export declare function multiply(firstNumber: number, secondNumber: number): number;

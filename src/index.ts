@@ -1,11 +1,11 @@
 /**
  * @name multiply
  *
- * @param a {number}
- * @param b {number}
+ * @param firstNumber {number}
+ * @param secondNumber {number}
  *
  * @return number
  * */
-export function multiply(a:number, b:number): number {
-    return a * b;
+export function multiply(firstNumber:number, secondNumber:number): number {
+    return firstNumber * secondNumber;
 }
