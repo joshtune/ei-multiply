@@ -6,8 +6,7 @@
  *
  * @return number
  * */
-const multiply = (firstNumber:number, secondNumber:number): number | null => {
-    return firstNumber && secondNumber ? firstNumber * secondNumber : null;
-}
+const multiply = (firstNumber: number, secondNumber: number): number | null =>
+  firstNumber && secondNumber ? firstNumber * secondNumber : null;
 
 export default multiply;
