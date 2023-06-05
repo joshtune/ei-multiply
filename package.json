@@ -4,9 +4,12 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
+    "pre-commit": "npm run build && npm run eslint:fix && npm run test",
+    "code-quality": "npm run lint && npm run test",
+    "lint": "npm run eslint",
+    "eslint": "eslint 'src/**/*.ts'",
     "eslint:fix": "eslint --fix 'src/**/*.ts'",
-    "test": "npx vitest run",
-    "code-quality": "npm run build && npm run eslint:fix && npm run test"
+    "test": "npx vitest run"
   },
   "husky": {
     "hooks": {
@@ -15,7 +18,7 @@
   },
   "lint-staged": {
     "src/**/*.ts": [
-      "npm run code-quality",
+      "npm run pre-commit",
       "git add"
     ]
   },

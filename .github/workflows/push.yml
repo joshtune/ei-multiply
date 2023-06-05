@@ -15,6 +15,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies and build 🔧
         run: npm install && npm run build
+      - name: Run Code Quality 🔧
+        run: npm run code-quality
       - name: Automated Version Bump
         uses: phips28/gh-action-bump-version@v9.1.4
         env:
